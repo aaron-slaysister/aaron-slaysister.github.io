@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252A;
+}
+
+li a {
+  font-weight: 500;
+  font-size: 33px;
+  color: #edf0f1;
+  text-decoration: none;
+  font-family: 'Jomhuria', cursive;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  cursor: default;
+  margin-right: auto;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+.full-name {
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Jomhuria', cursive;
+  color: #edf0f1;
+  font-size: 100px;
+  font-weight: 500;
+  cursor: default;
+}
+
+.description {
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Jomhuria', cursive;
+  color: #edf0f1;
+  font-size: 45px;
+  font-weight: 500;
+  cursor: default;
+}
+
+.downloadbtn {
+  align-items: center;
+  text-align: center;
+}
+
+.downloadbtn a {
+  text-decoration: none;
+  font-family: 'Jomhuria', cursive;
+  color: #edf0f1;
+  font-size: 40px;
+  font-weight: 500;
+  background-color: #0088a9;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 40px;
+  transition: all 0.3s ease 0s;
+}
+
+.downloadbtn a:hover {
+  background-color: #01647d;
+  padding: 10px 33px;
+}
+
+.what-is-new {
+  text-align: center;
+  color: #edf0f1;
+  font-weight: 500;
+  font-family: 'Jomhuria', cursive;
+  cursor: default;
+}
+
+.what-is-new h1 {
+  font-size: 70px;
+}
+
+.what-is-new ul li {
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 30px;
+}
+
+.about-section {
+  text-align: center;
+  color: #edf0f1;
+  font-weight: 500;
+  font-family: 'Jomhuria', cursive;
+  cursor: default;
+}
+
+.about-section h1 {
+  font-size: 70px;
+}
+
+.about-section p {
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size: 30px;
+}
+
+.installation-guide {
+  text-align: center;
+  color: #edf0f1;
+  font-weight: 500;
+  font-family: 'Jomhuria', cursive;
+  cursor: default;
+}
+
+.installation-guide h1 {
+  font-size: 70px;
+}
+
+.installation-guide ul li {
+  font-size: 30px;
+}
+
+.installation-guide ul li a {
+  color: #0088a9;
+  transition: all 0.3s ease 0s;
+  font-size: 30px;
+}
+
+.installation-guide ul li a:hover {
+  color: #01647d;
+}
+
+footer {
+  position: absolute;
+  bottom: auto;
+  height: auto;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+footer .disclaimer p {
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Jomhuria', cursive;
+  color: #edf0f1;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: default;
+}
+
+footer .disclaimer p a {
+  text-decoration: none;
+  color: #0088a9;
+  transition: all 0.3s ease 0s;
+}
+
+footer .disclaimer p a:hover {
+  color: #01647d;
+}
